@@ -33,6 +33,12 @@
 		2ACECE401BA2BF2E005689AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACECE3E1BA2BF2E005689AD /* Main.storyboard */; };
 		2ACECE421BA2BF2E005689AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACECE411BA2BF2E005689AD /* Assets.xcassets */; };
 		2ACECE451BA2BF2E005689AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACECE431BA2BF2E005689AD /* LaunchScreen.storyboard */; };
+		DE2F2FF91FEBA13500B534C5 /* PartiCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F2FF81FEBA13500B534C5 /* PartiCustomCell.swift */; };
+		DE2F2FFB1FEBA7C400B534C5 /* video_info_s1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2F2FFA1FEBA7C400B534C5 /* video_info_s1@2x.png */; };
+		DE2F2FFD1FEBA7DB00B534C5 /* video_info_s2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2F2FFC1FEBA7DB00B534C5 /* video_info_s2@3x.png */; };
+		DE2F30011FEBB86300B534C5 /* qipao_110.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2F30001FEBB86300B534C5 /* qipao_110.png */; };
+		DE2F30031FEBB8D200B534C5 /* qipao_112.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2F30021FEBB8D100B534C5 /* qipao_112.png */; };
+		DE2F30051FEBB9FF00B534C5 /* qipao_113.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2F30041FEBB9FE00B534C5 /* qipao_113.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +94,12 @@
 		2ACECE411BA2BF2E005689AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACECE441BA2BF2E005689AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ACECE461BA2BF2E005689AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2F2FF81FEBA13500B534C5 /* PartiCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartiCustomCell.swift; sourceTree = "<group>"; };
+		DE2F2FFA1FEBA7C400B534C5 /* video_info_s1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_info_s1@2x.png"; sourceTree = "<group>"; };
+		DE2F2FFC1FEBA7DB00B534C5 /* video_info_s2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_info_s2@3x.png"; sourceTree = "<group>"; };
+		DE2F30001FEBB86300B534C5 /* qipao_110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qipao_110.png; sourceTree = "<group>"; };
+		DE2F30021FEBB8D100B534C5 /* qipao_112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qipao_112.png; sourceTree = "<group>"; };
+		DE2F30041FEBB9FE00B534C5 /* qipao_113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qipao_113.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +211,12 @@
 			children = (
 				2A977CBE1BC55D740038BE80 /* ProfileButton.swift */,
 				2A977CBF1BC55D740038BE80 /* StarsOverlay.swift */,
+				DE2F2FF81FEBA13500B534C5 /* PartiCustomCell.swift */,
+				DE2F30041FEBB9FE00B534C5 /* qipao_113.png */,
+				DE2F30001FEBB86300B534C5 /* qipao_110.png */,
+				DE2F30021FEBB8D100B534C5 /* qipao_112.png */,
+				DE2F2FFA1FEBA7C400B534C5 /* video_info_s1@2x.png */,
+				DE2F2FFC1FEBA7DB00B534C5 /* video_info_s2@3x.png */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -352,8 +370,13 @@
 			files = (
 				2A6F123B1BD6662F00D12C56 /* GothaProReg.otf in Resources */,
 				2ACECE451BA2BF2E005689AD /* LaunchScreen.storyboard in Resources */,
+				DE2F2FFB1FEBA7C400B534C5 /* video_info_s1@2x.png in Resources */,
 				2ACECE421BA2BF2E005689AD /* Assets.xcassets in Resources */,
+				DE2F2FFD1FEBA7DB00B534C5 /* video_info_s2@3x.png in Resources */,
+				DE2F30031FEBB8D200B534C5 /* qipao_112.png in Resources */,
+				DE2F30051FEBB9FF00B534C5 /* qipao_113.png in Resources */,
 				2ACECE401BA2BF2E005689AD /* Main.storyboard in Resources */,
+				DE2F30011FEBB86300B534C5 /* qipao_110.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +412,7 @@
 				2A05EF861BD4B9F600BF150F /* MainSettingsViewController.swift in Sources */,
 				2A977CB91BC55D160038BE80 /* AppDelegate.swift in Sources */,
 				2A89D88D1BD6628000A2C503 /* CircularRevealAnimator.swift in Sources */,
+				DE2F2FF91FEBA13500B534C5 /* PartiCustomCell.swift in Sources */,
 				2A977CBD1BC55D3F0038BE80 /* SettingsTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
